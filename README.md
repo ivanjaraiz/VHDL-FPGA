@@ -33,6 +33,7 @@ Por último, cuando se ha hecho todas las modificaciones en LOCAL, se genera un 
 	
 	
 
+
 	
 SINCRONIZAR REPOSITORIO LOCAL CON REPOSITORIO EN GITHUB
 
@@ -103,4 +104,6 @@ De aquí vi como agregar la llave SSH a mi github:
 
 * https://help.github.com/es/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
+Video que explica los comandos básicos de git y como lo sincroniza con github, pero sin clave SSH. 
 
+* https://www.youtube.com/watch?v=HiXLkL42tMU&t=2109s	
