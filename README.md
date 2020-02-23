@@ -1,4 +1,40 @@
-"# VHDL-FPGA" 
+CREAR UN NUEVO REPOSITORIO EN LOCAL
+
+En este apartado se describe como yo he creado el repositorio. 
+En primer lugar, he inicializado el el proyecto git en el directorio VHDL-FPGA. 
+
+	$ git init
+
+En segundo lugar, configuro email y el nombre: 
+
+	$ git config --global user.email "ivan.jaraiz@gmail.com"
+	$ git config --global user.name "ijm"
+
+en tercer lugar, listo los comandos básicos que sueo usar: 
+
+	$ git status // para ver es estado de los archivos
+	$ git add [nombre_archivo] // para agregar un archivo al staging area
+	$ git commit -m "mensaje" // para crear punto de control (FOTO DEL PROYECTO)
+	$ git commit  (esta opción se mete en vim , se pulsa "i" para insertar texto y ESC, :wq para salir de vim)
+	$ git log // para ver los commits creados. 
+	$ git branch // ver rammas. 
+	$ git checkout [nombre_rama_destino]
+	
+En cuento lugar, los mas avanzados o que no uso tanto son: 
+	* Merge, para unir ramas. ESTO LO TENGO PENDIENTE. 
+	*Crear fichero .gitignore donde se listan todos los archivos o carpetas que se ignoran. 
+	*Ver diferencias entre códigos de un mismo fuente, así:  
+			$ git diff [nombre_fichero] [+ lo nuevo agregado, - lo que se ha quitado]
+			
+			
+Por último, cuando se ha hecho todas las modificaciones en LOCAL, se genera un commit y push al reporSERVER: 
+
+	$ git push -u origin master	
+	
+	
+
+	
+SINCRONIZAR REPOSITORIO LOCAL CON REPOSITORIO EN GITHUB
 
 En este documento se describen los pasos usados para generar la sincronización entre:
 (Comento también los problemas que me ido encontrando)
@@ -54,6 +90,7 @@ Con todo lo anterior ya puedo copiar mi repo LOCAL  al SERVER(github).
 
 
 Fuentes: 
+
 De aquí veo los dos primeros pasos: 
 
 * https://help.github.com/es/github/authenticating-to-github/error-permission-denied-publickey
@@ -65,6 +102,5 @@ De aquí veo como generar la llave SSH:
 De aquí vi como agregar la llave SSH a mi github: 
 
 * https://help.github.com/es/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
-
 
 
