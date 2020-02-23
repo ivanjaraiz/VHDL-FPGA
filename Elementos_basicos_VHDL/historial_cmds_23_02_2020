@@ -1,0 +1,55 @@
+    1  hola
+    2  ls
+    3  cd usr/
+    4  ls
+    5  cd C:\Users\ivan.jaraiz\Documents\VHDL-FPGA
+    6  pwd
+    7  cd /C/Users/ivan.jaraiz/Documents/VHDL-FPGA
+    8  git status
+    9  git log
+   10  git remote add origin https://github.com/ivanjaraiz/VHDL-FPGA.git
+   11  ls
+   12  git push -u origin master
+   13  eval $(ssh-agent -s)
+   14  ssh-add -l
+   15  ssh-keygen -t rsa -b 4096 -C "ivan.jaraiz@gmail.com"
+   16  eval $(ssh-agent -s)
+   17  ssh-add ~/.ssh/id_rsa
+   18  clip < ~/.ssh/id_rsa.pub
+   19  git push -u origin master
+   20  history
+   21  git status
+   22  git status
+   23  git add README.md
+   24  git push -u origin master
+   25  git commit -m "añadido comentario de mi caso para sincronizar git-bash-github"
+   26  git push -u origin master
+   27  git status
+   28  git add README.md
+   29  git commit -m "se divide crear en el readme los siguientes apartados: "
+   30  git commit -m "se divide crear en el readme los siguientes apartados: CREAR UN NUEVO REPOSITORIO EN LOCAL, SINCRONIZAR REPOSITORIO LOCAL CON REPOSITORIO EN GITHUB"
+   31  git log
+   32  git add README.md
+   33  git commit -m "se divide crear en el readme los siguientes apartados: CREAR UN NUEVO REPOSITORIO EN LOCAL, SINCRONIZAR REPOSITORIO LOCAL CON REPOSITORIO EN GITHUB"
+   34  git log
+   35  git push -u origin master
+   36  git add README.md
+   37  git commit -m "añado en fuentes el video de git y github"
+   38  git push -u origin master
+   39  git status
+   40  git add Elementos_basicos_VHDL/
+   41  git status
+   42  git commit -m "añado directorio_elementos_basicos_VHDL"
+   43  git push -u origin master
+   44  git status
+   45  git add Elementos_basicos_VHDL/
+   46  git status
+   47  git commit -m "añado directorio_elementos_basicos_VHDL"
+   48  git push -u origin master
+   49  git status
+   50  git add Elementos_basicos_VHDL/
+   51  git status
+   52  git commit -m "como asignar valores a señales y como coger cachas de bus de bits y como concaternar bits"
+   53  git push -u origin master
+   54  history
+
