@@ -29,7 +29,8 @@ En cuento lugar, los mas avanzados o que no uso tanto son:
 			
 Por último, cuando se ha hecho todas las modificaciones en LOCAL, se genera un commit y push al reporSERVER: 
 
-	$ git push -u origin master	
+	$ git remote add origin https://github.com/ivanjaraiz/C_Cpp-ARM.git [la dirección que sea]
+ 	$ git push -u origin master	
 	
 	
 
