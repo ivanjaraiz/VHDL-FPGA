@@ -19,4 +19,4 @@ begin
 	 end if;	
 	end process;
 	cuenta <= std_logic_vector(cnt);
-end functional;
+end secuencial;
