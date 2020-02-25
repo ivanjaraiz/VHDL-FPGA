@@ -16,6 +16,7 @@ begin
 			when "01" => y <= x(1);
 			when "10" => y <= x(2);
 			when "11" => y <= x(3);
+			when others => y <='0';
 		  end case;
 	  end if;
 	end process;
