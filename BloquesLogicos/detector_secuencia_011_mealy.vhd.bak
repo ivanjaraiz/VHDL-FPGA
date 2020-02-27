@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity DetectorDeSecuencia is
-  port (clk, reset, x : in std_logic;
+  port (x, clk, reset : in std_logic;
         z: out std_logic);
 end DetectorDeSecuencia;
 
